@@ -90,7 +90,7 @@ html{
     font-size: 22px;
 }
 .main-container{
-    background: url(img/font.png);
+    background: url(../img/font.png);
     background-repeat: no-repeat;
     background-size: 120%;
 }
