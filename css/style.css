@@ -102,14 +102,44 @@ h2 {
 }
 
 /* ---------------------------------not-use----------------------------------------- */
-.not-use {
+.rules {
     width: 100%;
     height: 100vh;
+    background-color: red;
+  
+}
+.rulesfirst{
+    background-color: yellow;
+    width: 40%;
+    height: 20%;
+    margin-left: 10%;
+  
 }
 
-.not-use-list {
-    text-align: center;
+.rulessecond{
+    background-color: pink;
+    width: 40%;
+    height: 20%;
+    margin-left:50%;
+    
 }
+
+.rulesthird{
+    background-color: blue;
+    width: 40%;
+    height: 20%;
+    margin-left:10%;
+}
+
+.rulesfour{
+    background-color: green;
+    width: 40%;
+    height: 20%;
+    margin-left:50%;
+}  
+
+
+
 
 /* ---------------------------------servises----------------------------------------- */
 .services{
