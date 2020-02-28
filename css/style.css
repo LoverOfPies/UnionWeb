@@ -207,7 +207,7 @@ html{
     margin-bottom: 10%;
 }
 .services-blocv-text2{
-    color: red;
+    color: #c94a65;
     font-size: 20px;
     margin-bottom: 10%;
 }
@@ -231,7 +231,7 @@ html{
     margin-bottom: 10%;
 }
 .services-blocs-text2{
-    color: red;
+    color: #c94a65;
     font-size: 20px;
     margin-bottom: 10%;
 }
@@ -269,6 +269,10 @@ html{
     margin-bottom: 10%;
 }
 /* ----------------------------------------------------------WORK--------------------------------------------------------------- */
+.work{
+    width: 100%;
+    height: 800px;
+}
 .work-link{
     margin-top: 5%;
     width: 100%;
@@ -287,20 +291,33 @@ html{
     margin-bottom: 10%; 
     
 }
-.work-menu1{
+.work-link-menu{
+
     display: inline-block;
-    width: 20%;
+    vertical-align: top;
+    text-decoration: none;
+    color: #333;
+    margin-right: 5%;
+    transition: color .1s linear;
+    font-size: 20px;
+    position: relative;
+}
+.work-link-menu:after{
+    content: "";
+    display: block;
+    width: 100%;
+    opacity: 0;
+    height: 2px;
+    background-color: #c94a65;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    transition: opacity .1s linear;
 
 }
-.work-menu2{
-    display: inline-block;  
-    width: 20%;
+.work-link-menu:hover{
+    color: #c94a65;
 }
-.work-menu3{
-    display: inline-block; 
-    width: 20%;
-}
-.work-menu4{
-    display: inline-block;
-    width: 20%;
+.work-link-menu:hover:after{
+    opacity: 1;
 }
