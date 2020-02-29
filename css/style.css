@@ -1,9 +1,8 @@
-* 
-{
+* {
     margin: 0;
     padding: 0;
 }
-html{
+html {
     margin: 0;  
 }
 
@@ -13,20 +12,26 @@ h2 {
     font-size: 4em;
 }
 /* ---------------------------------main----------------------------------------- */
-.main{
+.main {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
 }
-.main-container{
-    height: 1080px;
+
+.main-container {
+    height: 100vh;
+    background: url(../img/font.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
 }
-.navbar{
+
+.navbar {
     margin: 50px;
     margin-left: 13%;
 }
-.nav-link{
+
+.nav-link {
     display: inline-block;
     vertical-align: top;
     text-decoration: none;
@@ -36,7 +41,8 @@ h2 {
     font-size: 24px;
     position: relative;
 }
-.nav-link:after{
+
+.nav-link:after {
     content: "";
     display: block;
     width: 100%;
@@ -47,130 +53,108 @@ h2 {
     top: 100%;
     z-index: 1;
     transition: opacity .1s linear;
-
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #333;
 }
-.nav-link:hover:after{
+
+.nav-link:hover:after {
     opacity: 1;
 }
 
-.main-link{
+.main-link {
     margin-left: 17%;
     margin-top: 9%;
-
 }
-.main-link1{
+
+.main-link-studio {
     font-size: 32px;
     color: #E1004C;
     text-decoration: none;
 
 }
-.main-link2{
+
+.main-link-portfolio {
     font-size: 32px; 
     color: #333; 
     text-decoration: none;
 }
-.main-text{
+
+.main-title {
     margin: 20px;
     margin-left: 13%;
     width: 23%;
 }
-.input{
-    padding: 10px;
-    margin: 20px;
-    margin-left: 15%;
-    font-size: 22px;
-}
-.input2{
-    padding: 10px;
-    margin: 20px;
-    margin-left: 15%;
-    font-size: 22px;
-}
-.input3{
-    padding: 10px;
-    margin: 20px;
-    margin-left: 15%;
-    font-size: 22px;
-}
-.main-container{
-    background: url(../img/font.png);
-    background-repeat: no-repeat;
-    background-size: 120%;
-}
 
-/* ---------------------------------not-use----------------------------------------- */
+/* ---------------------------------rules----------------------------------------- */
 .rules {
     width: 100%;
     height: 100vh;
     background-color: red;
   
 }
-.rulesfirst{
+
+.rulesfirst {
     background-color: yellow;
     width: 40%;
     height: 20%;
     margin-left: 10%;
-  
 }
 
-.rulessecond{
+.rulessecond {
     background-color: pink;
     width: 40%;
     height: 20%;
-    margin-left:50%;
-    
+    margin-left:50%; 
 }
 
-.rulesthird{
+.rulesthird {
     background-color: blue;
     width: 40%;
     height: 20%;
     margin-left:10%;
 }
 
-.rulesfour{
+.rulesfour {
     background-color: green;
     width: 40%;
     height: 20%;
     margin-left:50%;
 }  
 
-
-
-
 /* ---------------------------------servises----------------------------------------- */
-.services{
+.services {
     margin-top: 5%;
     width: 100%;
     height: 1080px;
     text-align: center;
     font-size: 32px;
 }
-.services-bloc{
+
+.services-blocks {
     text-align: start;
     display: block;
     margin-top: 10%;
     width: 100%;
-
 }
-.services-link-text{
+
+.services-link-text {
     font-size: 20px; 
     width: 50%;
     margin-left: 25%;
     margin-top: 3%;
 }
-.services-blocl{
+
+.services-block {
     display: block;
     margin-left: 17%;
     padding: 30px;
     width: 30%;
     height: auto;
-    
 }
-.services-blocv{
+
+.services-blocv {
     text-align: end;
     display: block;
     margin-left: 53%;
@@ -178,7 +162,8 @@ h2 {
     padding: 30px;
     height: 190px;
 }
-.services-blocs{
+
+.services-blocs {
     text-align: start;
     display: block;
     margin-left: 17%;
@@ -186,7 +171,8 @@ h2 {
     padding: 30px;
     height: 190px;
 }
-.services-blocr{
+
+.services-blocr {
     text-align: end;
     display: block;
     margin-left: 53%;
@@ -194,140 +180,166 @@ h2 {
     padding: 30px;
     height: 170px;
 }
-.services-blocl-img{
+
+.services-blocl-img {
     display: inline-block;
     width: 30%;
     height: 170px;
     margin-right: 10%;
 }
 
-.services-blocv-img{
+.services-blocv-img {
     display: inline-block;
     margin-right: 10%;
     width: 30%;
     height: 170px;
 }
-.services-blocs-img{
+
+.services-blocs-img {
     display: inline-block;
     width: 30%;
     height: 20%;
     margin-right: 10%;
 }
-.services-blocr-img{
+
+.services-blocr-img {
     display: inline-block;
     margin-right: 10%;
     width: 30%;
     height: 170px;
 }
-.services-blocl-text{
+
+.services-blocl-text {
     display: inline-block;
     margin-top: 5%;
     font-size: 22px;
     width: 50%;   
 }
-.services-blocl-text1{
+
+.services-blocl-text1 {
     font-size: 20px;
     margin-bottom: 10%;
 }
-.services-blocl-text2{
+
+.services-blocl-text2 {
     color: blue;
     font-size: 20px;
     margin-bottom: 10%;
 }
-.services-blocl-text3{
+
+.services-blocl-text3 {
     color: #4B4B4B;
     font-size: 20px;
     margin-bottom: 10%; 
 }
-.services-blocl-text4{
+
+.services-blocl-text4 {
     font-size: 15px;
     margin-bottom: 10%;
 }
-.services-blocv-text{
+
+.services-blocv-text {
     display: inline-block;
     margin-top: 5%;
     font-size: 22px;
     width: 50%;   
 }
-.services-blocv-text1{
+
+.services-blocv-text1{ 
     font-size: 20px;
     margin-bottom: 10%;
 }
-.services-blocv-text2{
+
+.services-blocv-text2 {
     color: #c94a65;
     font-size: 20px;
     margin-bottom: 10%;
 }
-.services-blocv-text3{
+
+.services-blocv-text3 {
     font-size: 20px;
     color: #4B4B4B;
     margin-bottom: 10%; 
 }
-.services-blocv-text4{
+
+.services-blocv-text4 {
     font-size: 15px;
     margin-bottom: 10%;
 }
-.services-blocs-text{
+
+.services-blocs-text {
     display: inline-block;
     margin-top: 5%;
     font-size: 22px;
     width: 50%;   
 }
-.services-blocs-text1{
+
+.services-blocs-text1 {
     font-size: 20px;
     margin-bottom: 10%;
 }
-.services-blocs-text2{
+
+.services-blocs-text2 {
     color: #c94a65;
     font-size: 20px;
     margin-bottom: 10%;
 }
-.services-blocs-text3{
+
+.services-blocs-text3 {
     font-size: 20px;
     color: #4B4B4B;
     margin-bottom: 10%; 
 }
-.services-blocs-text4{
+
+.services-blocs-text4 {
     font-size: 15px;
     margin-bottom: 10%;
 }
-.services-blocr-text{
+
+.services-blocr-text {
     display: inline-block;
     margin-top: 5%;
     font-size: 22px;
     width: 50%;   
 }
-.services-blocr-text1{
+
+.services-blocr-text1 {
     font-size: 20px;
     margin-bottom: 10%;
 }
-.services-blocr-text2{
+
+.services-blocr-text2 {
     color: blue;
     font-size: 20px;
     margin-bottom: 10%;
 }
-.services-blocr-text3{
+
+.services-blocr-text3 {
     color: #4B4B4B;
     font-size: 20px;
     margin-bottom: 10%; 
 }
-.services-blocr-text4{
+
+.services-blocr-text4 {
     font-size: 15px;
     margin-bottom: 10%;
 }
+
 /* ----------------------------------------------------------WORK--------------------------------------------------------------- */
-.work{
+.work {
     width: 100%;
     height: 800px;
 }
-.work-link{
+
+.work-link {
     margin-top: 5%;
     width: 100%;
     height: 100px;
     text-align: center;
     font-size: 32px;
 }
-.work-menu{
+
+.work-menu {
     margin-left: 10%;
     text-align: center;
     display: block;
@@ -338,8 +350,8 @@ h2 {
     margin-bottom: 10%; 
     
 }
-.work-link-menu{
 
+.work-link-menu {
     display: inline-block;
     vertical-align: top;
     text-decoration: none;
@@ -349,7 +361,8 @@ h2 {
     font-size: 20px;
     position: relative;
 }
-.work-link-menu:after{
+
+.work-link-menu:after {
     content: "";
     display: block;
     width: 100%;
@@ -360,35 +373,38 @@ h2 {
     top: 100%;
     z-index: 1;
     transition: opacity .1s linear;
-
 }
-.work-link-menu:hover{
+
+.work-link-menu:hover {
     color: #c94a65;
 }
-.work-link-menu:hover:after{
+
+.work-link-menu:hover:after {
     opacity: 1;
 }
+
 /* -------------------------------------------------------worcking ---------------------------------------------------------*/
-.working{
+.working {
     width: 100%;
     height: 750px;
     text-align: center;
     text-decoration: none;
     color: #000000;
-
 }
-.working-link{
 
+.working-link {
     font-size: 36px;
 }
-.working-img{
+
+.working-img {
     margin-top: 6%;
     margin-bottom: 1%;
     width: 80%;
     margin-left: 10%;
     height: 190px;
 }
-.working-bloc1{
+
+.working-bloc1 {
     display:flex;
     justify-content: space-between;
     text-align: start;
@@ -396,37 +412,36 @@ h2 {
     font-size: 34px;
     width: 80%;
     margin-left: 10%;
-
 }
-.working-bloc2{
+
+.working-bloc2 {
     display:flex;
     justify-content: space-between;
     text-align: start;
     font-size: 34px;
-    
     width: 80%;
     margin-left: 10%;
- 
 }
-.working-bloc1-text{
+
+.working-bloc1-text {
     display: inline-block;
     text-align: start;
     width: 12%;
-
     color: #000000;
     text-decoration: none;
 }
-.working-bloc2-text{
+
+.working-bloc2-text {
     font-size: 15px;
     text-align: start;
     width: 12%;
     height: auto;
     display: inline-block;
-
     color: #000000;
     text-decoration: none; 
 }
-.working-button{
+
+.working-button {
     font-family:roboto slab;
     margin-top: 10%;
     font-size: 18px;
