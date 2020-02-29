@@ -92,7 +92,6 @@ h2 {
     width: 100%;
     height: 100vh;
     background-color: red;
-  
 }
 
 .rulesfirst {
@@ -125,202 +124,63 @@ h2 {
 
 /* ---------------------------------servises----------------------------------------- */
 .services {
-    margin-top: 5%;
     width: 100%;
-    height: 1080px;
     text-align: center;
-    font-size: 32px;
 }
 
 .services-blocks {
-    text-align: start;
     display: block;
-    margin-top: 10%;
     width: 100%;
-}
-
-.services-link-text {
-    font-size: 20px; 
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 3%;
 }
 
 .services-block {
     display: block;
-    margin-left: 17%;
     padding: 30px;
     width: 30%;
     height: auto;
 }
 
-.services-blocv {
-    text-align: end;
-    display: block;
-    margin-left: 53%;
-    width: 30%;
-    padding: 30px;
-    height: 190px;
+.services-block-right {
+    display: inline-block;
+    margin-left: 50%;
 }
 
-.services-blocs {
-    text-align: start;
-    display: block;
-    margin-left: 17%;
-    width: 30%;
-    padding: 30px;
-    height: 190px;
+.services-block-left {
+    display: inline-block;
+    margin-right: 50%;
 }
 
-.services-blocr {
-    text-align: end;
-    display: block;
-    margin-left: 53%;
-    width: 30%;
-    padding: 30px;
-    height: 170px;
-}
-
-.services-blocl-img {
+.services-block-img {
     display: inline-block;
     width: 30%;
     height: 170px;
     margin-right: 10%;
 }
 
-.services-blocv-img {
-    display: inline-block;
-    margin-right: 10%;
-    width: 30%;
-    height: 170px;
-}
-
-.services-blocs-img {
-    display: inline-block;
-    width: 30%;
-    height: 20%;
-    margin-right: 10%;
-}
-
-.services-blocr-img {
-    display: inline-block;
-    margin-right: 10%;
-    width: 30%;
-    height: 170px;
-}
-
-.services-blocl-text {
+.services-block-info {
     display: inline-block;
     margin-top: 5%;
-    font-size: 22px;
     width: 50%;   
 }
 
-.services-blocl-text1 {
+.services-block-title {
     font-size: 20px;
     margin-bottom: 10%;
 }
 
-.services-blocl-text2 {
+.services-block-price {
     color: blue;
     font-size: 20px;
     margin-bottom: 10%;
 }
 
-.services-blocl-text3 {
+.services-block-time {
     color: #4B4B4B;
     font-size: 20px;
     margin-bottom: 10%; 
 }
 
-.services-blocl-text4 {
-    font-size: 15px;
-    margin-bottom: 10%;
-}
-
-.services-blocv-text {
-    display: inline-block;
-    margin-top: 5%;
-    font-size: 22px;
-    width: 50%;   
-}
-
-.services-blocv-text1{ 
-    font-size: 20px;
-    margin-bottom: 10%;
-}
-
-.services-blocv-text2 {
-    color: #c94a65;
-    font-size: 20px;
-    margin-bottom: 10%;
-}
-
-.services-blocv-text3 {
-    font-size: 20px;
-    color: #4B4B4B;
-    margin-bottom: 10%; 
-}
-
-.services-blocv-text4 {
-    font-size: 15px;
-    margin-bottom: 10%;
-}
-
-.services-blocs-text {
-    display: inline-block;
-    margin-top: 5%;
-    font-size: 22px;
-    width: 50%;   
-}
-
-.services-blocs-text1 {
-    font-size: 20px;
-    margin-bottom: 10%;
-}
-
-.services-blocs-text2 {
-    color: #c94a65;
-    font-size: 20px;
-    margin-bottom: 10%;
-}
-
-.services-blocs-text3 {
-    font-size: 20px;
-    color: #4B4B4B;
-    margin-bottom: 10%; 
-}
-
-.services-blocs-text4 {
-    font-size: 15px;
-    margin-bottom: 10%;
-}
-
-.services-blocr-text {
-    display: inline-block;
-    margin-top: 5%;
-    font-size: 22px;
-    width: 50%;   
-}
-
-.services-blocr-text1 {
-    font-size: 20px;
-    margin-bottom: 10%;
-}
-
-.services-blocr-text2 {
-    color: blue;
-    font-size: 20px;
-    margin-bottom: 10%;
-}
-
-.services-blocr-text3 {
-    color: #4B4B4B;
-    font-size: 20px;
-    margin-bottom: 10%; 
-}
-
-.services-blocr-text4 {
+.services-block-text {
     font-size: 15px;
     margin-bottom: 10%;
 }
@@ -328,7 +188,6 @@ h2 {
 /* ----------------------------------------------------------WORK--------------------------------------------------------------- */
 .work {
     width: 100%;
-    height: 800px;
 }
 
 .work-link {
